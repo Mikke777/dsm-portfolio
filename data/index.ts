@@ -32,14 +32,14 @@ export const data = [
   {
     category: "Marketplace",
     title: "rent-A-bike",
-    src: "/rent.png",
+    src: "/rentp.png",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "rent-a-bike",
     content: [
       {
         title: "Rent and lend bikes!",
         description: "Rent and lend bikes from people in your area.",
-        imgSrc: "/rent.png",
+        imgSrc: "/rentp.png",
         imgAlt: "rent Image 1",
         sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
       },
