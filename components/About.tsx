@@ -1,8 +1,11 @@
 import React from 'react'
+import { BentoGridSecondDemo } from '@/components/ui/BentoSecondGrid'
 
 const About = () => {
   return (
-    <div>About</div>
+    <section id="about">
+      <BentoGridSecondDemo />
+    </section>
   )
 }
 
