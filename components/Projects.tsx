@@ -10,11 +10,11 @@ const DummyContent = ({ content }) => {
       {content.map((item, index) => (
         <div
           key={index}
-          className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+          className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4"
         >
           <div className="mt-4 mb-4">
-            <h1 className="text-center text-base md:text-2xl">{item.title}</h1>
-            <p className="text-center mb-4 text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+            <h1 className="text-center text-base md:text-2xl text-red-900">{item.title}</h1>
+            <p className="text-center mb-4 text-red-900 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               {item.description}
             </p>
             <Image
@@ -54,7 +54,7 @@ export function Projects() {
 
   return (
     <div id="AppleCardsCarouselDemo" className="max-w-4xl mx-auto h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-color font-sans">
         Some of my projects!(Click on the cards to see the features)
       </h2>
       <Carousel items={cards} />
