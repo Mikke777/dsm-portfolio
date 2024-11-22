@@ -40,7 +40,7 @@ const items = [
     description: "I want to be a full stack.",
     header: <Skeleton />,
     className: "md:col-span-1 md:row-span-1 bg-white-100",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    icon: <IconClipboardCopy className="h-4 w-4 text-color" />,
     image: "/photo-prof.jpg",
   },
   {
