@@ -258,7 +258,7 @@ export const Card = ({
           src={card.src}
           alt={card.title}
           fill
-          className="object-cover absolute z-10 inset-0"
+          className="object-cover object-left absolute z-10 inset-0"
           sizes={card.sizes}
           priority={card.priority}
         />
