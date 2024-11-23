@@ -7,6 +7,7 @@ import { BsFiletypeScss, BsFiletypeSql } from "react-icons/bs";
 import { IoCopyOutline, IoLogoJavascript, IoDocument, IoLogoNodejs } from "react-icons/io5";
 import { SiStimulus, SiNextdotjs, SiSqlite, SiHotwire, SiTailwindcss, SiTypescript, SiHeroku, SiRubyonrails } from "react-icons/si";
 import { DiPostgresql, DiRuby } from "react-icons/di";
+import { TbBrandFramerMotion } from "react-icons/tb";
 import MagicButton from "./MagicButton";
 import { Cover } from "@/components/ui/Cover";
 import Image from "next/image";
@@ -101,72 +102,98 @@ export const BentoGridItem = ({
         )}
         {id === 4 && (
           <div className="flex justify-center items-center mt-5">
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 gap-10">
-              <div className="text-6xl">
-                <FaHtml5 />
+            <div className="grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-4 md:grid-cols-4 md:gap-y-3 lg:grid-cols-5 lg:gap-y-7 xl:grid-cols-6 gap-10">
+              <div className="flex flex-col transform justify-center text-center items-center hover:text-orange-100 hover:translate-y-1">
+                <FaHtml5 className="text-6xl" />
+                <p className="text-sm">Html</p>
               </div>
-              <div className="text-6xl">
-                <FaCss3Alt />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <FaCss3Alt  className="text-6xl"  />
+                <p className="text-sm text-center">Css</p>
               </div>
-              <div className="text-6xl">
-                <BsFiletypeScss />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <BsFiletypeScss className="text-6xl" />
+                <p className="text-sm text-center">Scss</p>
               </div>
-              <div className="text-6xl">
-                <SiTailwindcss />
+              <div className="flex flex-col justify-center text-center items-center transform text-6xl hover:text-orange-100 hover:translate-y-1">
+                <SiTailwindcss className="text-6xl" />
+                <p className="text-sm text-center">Tailwind</p>
               </div>
-              <div className="text-6xl">
-                <IoLogoJavascript />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <IoLogoJavascript className="text-6xl" />
+                <p className="text-sm text-center">Javascript</p>
               </div>
-              <div className="text-6xl">
-                <SiHotwire />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <SiHotwire className="text-6xl" />
+                <p className="text-sm text-center">Hotwire</p>
               </div>
-              <div className="text-6xl">
-                <FaReact />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <FaReact className="text-6xl" />
+                <p className="text-sm text-center">React</p>
               </div>
-              <div className="text-6xl">
-                <SiStimulus />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <SiStimulus className="text-6xl" />
+                <p className="text-sm text-center">Stimulus</p>
               </div>
-              <div className="text-6xl">
-                <SiTypescript />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <SiTypescript className="text-6xl" />
+                <p className="text-sm text-center">Typescript</p>
               </div>
-              <div className="text-6xl">
-                <FaBootstrap />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <FaBootstrap className="text-6xl" />
+                <p className="text-sm text-center">Bootstrap</p>
               </div>
-              <div className="text-6xl">
-                <SiNextdotjs />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <SiNextdotjs className="text-6xl" />
+                <p className="text-sm text-center">Next.js</p>
               </div>
-              <div className="text-6xl">
-                <BsFiletypeSql />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <BsFiletypeSql className="text-6xl" />
+                <p className="text-sm text-center">Sql</p>
               </div>
-              <div className="text-6xl">
-                <DiPostgresql />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <DiPostgresql className="text-6xl" />
+                <p className="text-sm text-center">Postgresql</p>
               </div>
-              <div className="text-6xl">
-                <SiSqlite />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <SiSqlite className="text-6xl" />
+                <p className="text-sm text-center">Sqlite</p>
               </div>
-              <div className="text-6xl">
-                <FaGitSquare />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <FaGitSquare className="text-6xl" />
+                <p className="text-sm text-center">Git</p>
               </div>
-              <div className="text-6xl">
-                <FaGithub />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <FaGithub className="text-6xl" />
+                <p className="text-sm text-center">Github</p>
               </div>
-              <div className="text-6xl">
-                <SiNextdotjs />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <SiNextdotjs className="text-6xl" />
+                <p className="text-sm text-center">Next.js</p>
               </div>
-              <div className="text-6xl">
-                <DiRuby />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <DiRuby className="text-6xl" />
+                <p className="text-sm text-center">Ruby</p>
               </div>
-              <div className="text-6xl">
-                <SiRubyonrails />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <SiRubyonrails className="text-6xl" />
+                <p className="text-sm text-center">Rails</p>
               </div>
-              <div className="text-6xl">
-                <FaFigma />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <FaFigma className="text-6xl" />
+                <p className="text-sm text-center">Figma</p>
               </div>
-              <div className="text-6xl">
-                <SiHeroku />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <SiHeroku className="text-6xl" />
+                <p className="text-sm text-center">Heroku</p>
               </div>
-              <div className="text-6xl">
-                <IoLogoNodejs />
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <IoLogoNodejs className="text-6xl" />
+                <p className="text-sm text-center">Node.js</p>
+              </div>
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <TbBrandFramerMotion className="text-6xl" />
+                <p className="text-sm text-center">Framer Motion</p>
               </div>
             </div>
           </div>
