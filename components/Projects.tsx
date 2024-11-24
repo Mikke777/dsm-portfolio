@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/AppleCardsCarousel";
 import { data as projectData } from "@/data/index";
+import { Lens } from "./ui/Lens";
 
 const DummyContent = ({ content }) => {
   return (
@@ -10,21 +11,27 @@ const DummyContent = ({ content }) => {
       {content.map((item, index) => (
         <div
           key={index}
-          className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4"
+          className="flex flex-cols items-center justify-center bg-[#F5F5F7] max-h-fit p-8 md:p-14 rounded-3xl mb-4"
         >
           <div className="mt-4 mb-4">
-            <h1 className="text-center text-base md:text-2xl text-red-900">{item.title}</h1>
-            <p className="text-center mb-4 text-red-900 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              {item.description}
-            </p>
-            <Image
+            <h1 className="text-center text-base md:text-2xl text-black-100 mb-4">
+              {item.title}
+            </h1>
+            <Lens>
+              <Image
               src={item.imgSrc}
               alt={item.imgAlt}
-              height={500}
-              width={500}
+              height={600}
+              width={600}
               sizes={item.sizes}
-              className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+              className="mx-auto mb-4 rounded-3xl"
             />
+            </Lens>
+            <div>
+              <p className="mb-4 text-justify text-black-100 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+                {item.description}
+              </p>
+            </div>
           </div>
         </div>
       ))}
