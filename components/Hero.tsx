@@ -9,10 +9,10 @@ function Hero() {
     <BackgroundBeamsWithCollision>
       <div className='flex justify-center relative my-20 z-10'>
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-            <h2 className='uppercase tracking-widest text-xs text-center text-color max-w-80'>
-              I&apos;m a software engineer and a designer
+          <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Code Create Collaborate' />
+            <h2 className='text-3xl uppercase tracking-widest text-center text-color max-w-100'>
+              Software Engineer
             </h2>
-            <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Build your next project with Next.js' />
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-large lg:text-2xl'>
               Hi, I&apos;m Michele Di Stadio
             </p>
