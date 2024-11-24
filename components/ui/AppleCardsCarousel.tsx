@@ -26,6 +26,7 @@ type Card = {
   title: string;
   category: string;
   content: React.ReactNode;
+  link?: string;
   sizes?: string;
   priority?: boolean;
 };
@@ -227,7 +228,10 @@ export const Card = ({
                 layoutId={layout ? `title-${card.title}` : undefined}
                 className="text-2xl md:text-5xl font-semibold text-neutral-700 mt-4 dark:text-white"
               >
-                {card.title}
+                <div className="flex justify-between">
+                  {card.title}
+                <a href={`${card.link}`} className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">Link or Code</a>
+                </div>
               </motion.p>
               <div className="py-10">{card.content}</div>
             </motion.div>

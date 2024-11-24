@@ -1,8 +1,11 @@
+import { link } from "fs";
+
 export const data = [
   {
     category: "Meet People",
     title: "Melody Map",
     src: "/homep.png",
+    link: "https://melody-map.herokuapp.com/",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "melody-map",
     content: [
@@ -33,6 +36,7 @@ export const data = [
     category: "Marketplace",
     title: "rent-A-bike",
     src: "/rentp.png",
+    link: "https://rent-a-bike-2021.herokuapp.com/",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "rent-a-bike",
     content: [
@@ -63,6 +67,7 @@ export const data = [
     category: "Movies",
     title: "Rails Wachtlist",
     src: "/watch.png",
+    link: "https://rails-watchlist.herokuapp.com/",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "rails-wachtlist",
     content: [
@@ -93,6 +98,7 @@ export const data = [
     category: "Restaurant",
     title: "Lemon Restaurant",
     src: "/lhome.png",
+    link: "https://little-lemon.herokuapp.com/",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "lemon-restaurant",
     content: [
@@ -123,6 +129,7 @@ export const data = [
     category: "Accounting",
     title: "Dashboard Invoices",
     src: "/nhome.png",
+    link: "https://dashboard-invoices.herokuapp.com/",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "dashboard-nextjs",
     content: [
