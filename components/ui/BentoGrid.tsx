@@ -199,7 +199,7 @@ export const BentoGridItem = ({
           </div>
         )}
         {id === 5 && (
-          <div className="mt-8">
+          <div className="flex flex-cols justify-center mt-8">
             <MagicButton
               title={open ? "Clicked" : "Click here"}
               icon={<IoDocument />}
@@ -210,7 +210,7 @@ export const BentoGridItem = ({
         )}
 
         {id === 6 && (
-          <div className="mt-8">
+          <div className="flex flex-cols justify-center mt-8">
             <MagicButton
              title={copied ? "Copied!" : "Copy my Email" }
              icon={<IoCopyOutline />}
