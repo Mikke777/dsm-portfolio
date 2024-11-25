@@ -415,9 +415,7 @@ export function GlobeDemo() {
             I&apos;m international
           </h2>
           <p className="text-center text-base md:text-lg font-normal text-color max-w-md mt-2 mx-auto">
-            I&apos;m a full stack developer who loves to travel. I&apos;ve been to
-            many places and met many people. Here are some of the places I&apos;ve
-            been to.
+            I can speak three languages: Italian, English and German. Currently living in Passau (Germany) but i&apos;m willing to relocate.
           </p>
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white-100 z-40" />
