@@ -37,9 +37,9 @@ const items = [
   {
     id: 1,
     title: "About Me",
-    description: "I’m a Junior Software Engineer with a passion for coding and problem-solving. I thrive on creating innovative solutions that simplify and enhance everyday life, aiming to make a meaningful impact through technology.",
+    description: "I’m a Junior Web Developer with a passion for coding and problem-solving. I thrive on creating innovative solutions that simplify and enhance everyday life, aiming to make a meaningful impact through technology.",
     header: <Skeleton />,
-    className: "md:col-span-1 md:row-span-1 bg-white-100",
+    className: "md:col-span-1 md:row-span-1 bg-white-100 text-justify",
     icon: <IconClipboardCopy className="h-4 w-4 text-color" />,
     image: "/photo-prof.jpg",
   },
@@ -63,9 +63,9 @@ const items = [
     id: 4,
     title: "My Tech Stack",
     description:
-      "I'm eager to learn new technologies and improve my skills.",
+      "Looking for something more? So am I! As a Junior Web Developer, I am committed to continuously expanding and deepening my tech stack. I quickly and independently master new technologies, and I approach every challenge with an open and positive mindset. Let me show you what I can bring to the table!",
     header: <Skeleton />,
-    className: "md:col-span-2 md:row-span-2 bg-white-100",
+    className: "md:col-span-2 md:row-span-2 bg-white-100 text-justify",
     icon: <IconTableColumn className="h-4 w-4 text-color" />,
   },
   {
