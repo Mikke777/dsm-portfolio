@@ -79,7 +79,7 @@ const items = [
   {
     id: 6,
     title: "Let's work together",
-    description:"Copy my email.",
+    description:"Click the button in order to copy my email address.",
     header: <Skeleton />,
     className: "md:col-span-1 bg-white-100",
     icon: <IconMail className="h-4 w-4 text-color" />,
