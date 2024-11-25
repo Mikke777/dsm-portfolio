@@ -36,8 +36,8 @@ const Skeleton = () => (
 const items = [
   {
     id: 1,
-    title: "About me:",
-    description: "I want to be a full stack.",
+    title: "About Me",
+    description: "I’m a Junior Software Engineer with a passion for coding and problem-solving. I thrive on creating innovative solutions that simplify and enhance everyday life, aiming to make a meaningful impact through technology.",
     header: <Skeleton />,
     className: "md:col-span-1 md:row-span-1 bg-white-100",
     icon: <IconClipboardCopy className="h-4 w-4 text-color" />,
@@ -57,7 +57,7 @@ const items = [
     description: "Communication is the key to success.",
     header: <Skeleton />,
     className: "md:col-span-1 md:row-span-1 bg-white-100",
-    icon: <IconAward className="h-4 w-4 text-neutral-500" />,
+    icon: <IconAward className="h-4 w-4 text-color" />,
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ const items = [
       "I'm eager to learn new technologies and improve my skills.",
     header: <Skeleton />,
     className: "md:col-span-2 md:row-span-2 bg-white-100",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    icon: <IconTableColumn className="h-4 w-4 text-color" />,
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ const items = [
     description: "Click the button to open in a new tab my resume.",
     header: <Skeleton />,
     className: "md:col-span-1 bg-white-100",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    icon: <IconSignature className="h-4 w-4 text-color" />,
   },
   {
     id: 6,
@@ -82,6 +82,6 @@ const items = [
     description:"Copy my email.",
     header: <Skeleton />,
     className: "md:col-span-1 bg-white-100",
-    icon: <IconMail className="h-4 w-4 text-neutral-500" />,
+    icon: <IconMail className="h-4 w-4 text-color" />,
   },
 ];
