@@ -102,7 +102,7 @@ export const BentoGridItem = ({
         )}
         {id === 4 && (
           <div className="flex justify-center items-center mt-5">
-            <div className="grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-4 md:grid-cols-5 md:gap-y-3 lg:grid-cols-5 lg:gap-y-7 xl:grid-cols-6 gap-10">
+            <div className="grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-4 md:grid-cols-5 md:gap-y-3 lg:grid-cols-5 lg:gap-y-3 xl:grid-cols-6 xl:gap-y-7 gap-10">
               <div className="flex flex-col transform justify-center text-center items-center hover:text-orange-100 hover:translate-y-1">
                 <FaHtml5 className="text-6xl" />
                 <p className="text-sm">Html</p>
