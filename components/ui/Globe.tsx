@@ -119,6 +119,18 @@ export function Globe({ globeConfig, data }: WorldProps) {
     for (let i = 0; i < arcs.length; i++) {
       const arc = arcs[i];
       const rgb = hexToRgb(arc.color) as { r: number; g: number; b: number };
+
+      // Validate coordinates
+      if (
+        isNaN(arc.startLat) ||
+        isNaN(arc.startLng) ||
+        isNaN(arc.endLat) ||
+        isNaN(arc.endLng)
+      ) {
+        console.warn("Invalid coordinates found:", arc);
+        continue;
+      }
+
       points.push({
         size: defaultProps.pointSize,
         order: arc.order,
@@ -168,7 +180,13 @@ export function Globe({ globeConfig, data }: WorldProps) {
     if (!globeRef.current || !globeData) return;
 
     globeRef.current
-      .arcsData(data)
+      .arcsData(data.filter((arc) => {
+        const isValid = !isNaN(arc.startLat) && !isNaN(arc.startLng) && !isNaN(arc.endLat) && !isNaN(arc.endLng);
+        if (!isValid) {
+          console.warn("Invalid arc data:", arc);
+        }
+        return isValid;
+      }))
       .arcStartLat((d) => (d as { startLat: number }).startLat * 1)
       .arcStartLng((d) => (d as { startLng: number }).startLng * 1)
       .arcEndLat((d) => (d as { endLat: number }).endLat * 1)
@@ -186,20 +204,14 @@ export function Globe({ globeConfig, data }: WorldProps) {
       .arcDashAnimateTime((e) => defaultProps.arcTime);
 
     globeRef.current
-      .pointsData(data)
+      .pointsData(data.filter((arc) => {
+        const isValid = !isNaN(arc.startLat) && !isNaN(arc.startLng) && !isNaN(arc.endLat) && !isNaN(arc.endLng);
+        if (!isValid) {
+          console.warn("Invalid point data:", arc);
+        }
+        return isValid;
+      }))
       .pointColor((e) => (e as { color: string }).color)
-      .pointsMerge(true)
-      .pointAltitude(0.0)
-      .pointRadius(2);
-
-    globeRef.current
-      .ringsData([])
-      .ringColor((e: any) => (t: any) => e.color(t))
-      .ringMaxRadius(defaultProps.maxRings)
-      .ringPropagationSpeed(RING_PROPAGATION_SPEED)
-      .ringRepeatPeriod(
-        (defaultProps.arcTime * defaultProps.arcLength) / defaultProps.rings
-      );
   };
 
   useEffect(() => {
