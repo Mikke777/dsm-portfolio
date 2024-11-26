@@ -199,9 +199,9 @@ export const BentoGridItem = ({
           </div>
         )}
         {id === 5 && (
-          <div className="flex flex-cols justify-center mt-8">
+          <div className="flex flex-cols justify-center mt-2 md:mt-0">
             <MagicButton
-              title={open ? "Clicked" : "Click here"}
+              title={open ? "Clicked" : "My CV"}
               icon={<IoDocument />}
               position="left"
               handleClick={handleDownload}

@@ -70,8 +70,8 @@ const items = [
   },
   {
     id: 5,
-    title: "CV",
-    description: "Click the button to open in a new tab my resume.",
+    title: "My Background",
+    description: "With a master's in International Business and Development and experience in fintech, hardware sales, and guest service, I bring a unique perspective to user experience as a software developer, integrating insights from people, business, and research. Do you want to know more about my educational and professional background? Have a look at my CV",
     header: <Skeleton />,
     className: "md:col-span-1 bg-white-100",
     icon: <IconSignature className="h-4 w-4 text-color" />,
