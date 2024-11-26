@@ -96,7 +96,7 @@ export const BentoGridItem = ({
         {id === 3 && (
           <div className="flex justify-center items-center mt-14">
             <h1>
-              <Cover>Accelerated Results Through Focused Communication.</Cover>
+              <Cover>Your Ideas, My Keyboard.</Cover>
             </h1>
           </div>
         )}

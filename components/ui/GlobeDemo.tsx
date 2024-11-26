@@ -415,7 +415,7 @@ export function GlobeDemo() {
             I&apos;m international
           </h2>
           <p className="text-center text-base md:text-lg font-normal text-color max-w-md mt-2 mx-auto">
-            International, open-minded Junior Software Developer. I don&apos;t only know programming languages. I am also fluent in English, German, and Italian. Currently based in Passau, Germany. But looking forward to relocate and to embrace challenges around the world.
+            International, open-minded Junior Web Developer. I don&apos;t only know programming languages. I am also fluent in English, German, and Italian. Currently based in Passau, Germany. But looking forward to relocate and to embrace challenges around the world.
           </p>
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white-100 z-40" />
