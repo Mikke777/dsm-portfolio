@@ -54,9 +54,9 @@ const items = [
   {
     id: 3,
     title: "Comunication Skills",
-    description: "Communication is the key to success.",
+    description: "Through the years I develop different soft skills, but communication for me vital, as it directly impacts project success. Share your ideas! Lets build something memorable!",
     header: <Skeleton />,
-    className: "md:col-span-1 md:row-span-1 bg-white-100",
+    className: "md:col-span-1 md:row-span-1 bg-white-100 text-justify",
     icon: <IconAward className="h-4 w-4 text-color" />,
   },
   {
