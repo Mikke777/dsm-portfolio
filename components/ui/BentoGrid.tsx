@@ -168,10 +168,6 @@ export const BentoGridItem = ({
                 <p className="text-sm text-center">Github</p>
               </div>
               <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
-                <SiNextdotjs className="text-6xl" />
-                <p className="text-sm text-center">Next.js</p>
-              </div>
-              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
                 <DiRuby className="text-6xl" />
                 <p className="text-sm text-center">Ruby</p>
               </div>

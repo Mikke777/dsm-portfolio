@@ -62,8 +62,12 @@ export function Projects() {
   return (
     <div id="AppleCardsCarouselDemo" className="max-w-4xl mx-auto h-full py-20">
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-color font-sans">
-        Some of my projects!(Click on the cards to see the features)
+        Some of my projects!
       </h2>
+      <p className="max-w-7xl pl-4 mt-5 mx-auto text-md md:text-sm text-color font-sans">
+        Here are some of the projects that I have worked on in the past. Click
+        on the cards to learn more about each project.
+      </p>
       <Carousel items={cards} />
     </div>
   );
