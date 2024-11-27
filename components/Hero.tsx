@@ -16,7 +16,7 @@ function Hero() {
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-large lg:text-2xl'>
               Hi, I&apos;m Michele Di Stadio
             </p>
-            <a href="#AppleCardsCarouselDemo">
+            <a href="#Projects">
               <MagicButton title="Show my work" icon={<FaLocationArrow />} position='right' />
             </a>
           </div>
