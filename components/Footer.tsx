@@ -9,7 +9,7 @@ const Footer = () => {
           <div className='flex justify-between xs:flex-col xs:text-center sm:flex-col sm:text-center md:flex-row'>
             <div>
             <h2 className='md:text-left'>Michele Di Stadio</h2>
-            <p className='md:text-left'>Junior Frontend Developer</p>
+            <p className='md:text-left'>Junior Web Developer</p>
           </div>
           <div className='xs:text-center sm:text-center'>
             <h2>Socials:</h2>
