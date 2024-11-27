@@ -60,7 +60,7 @@ export function Projects() {
   ));
 
   return (
-    <div id="AppleCardsCarouselDemo" className="max-w-4xl mx-auto h-full py-20">
+    <div className="max-w-4xl mx-auto h-full py-20">
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-color font-sans">
         Some of my projects!
       </h2>
