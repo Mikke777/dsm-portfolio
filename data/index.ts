@@ -94,7 +94,7 @@ export const data = [
   },
   {
     category: "Restaurant",
-    title: "Lemon Restaurant",
+    title: "Little Lemon",
     src: "/lhome.png",
     link: "https://github.com/Mikke777/mock-restaurant",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
@@ -125,7 +125,7 @@ export const data = [
   },
   {
     category: "Accounting",
-    title: "Dashboard Invoices",
+    title: "Dashboard",
     src: "/nhome.png",
     link: "https://github.com/Mikke777/NEXTJS---DASHBOARD",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
