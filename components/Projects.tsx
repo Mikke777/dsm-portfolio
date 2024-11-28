@@ -64,9 +64,8 @@ export function Projects() {
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-color font-sans">
         Some of my projects!
       </h2>
-      <p className="max-w-7xl pl-4 mt-5 mx-auto text-md md:text-sm text-color font-sans">
-        Here are some of the projects that I have worked on in the past. Click
-        on the cards to learn more about each project.
+      <p className="max-w-7xl pl-4 mt-5 mx-auto text-base text-color font-sans">
+        Here are some of the projects I&apos;ve worked on. Scroll to the right to explore them all, and click on any project for more details.
       </p>
       <Carousel items={cards} />
     </div>
