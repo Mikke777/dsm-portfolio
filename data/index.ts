@@ -2,7 +2,7 @@ export const data = [
   {
     category: "Meet People",
     title: "Melody Map",
-    src: "/homep.png",
+    src: "/homep.jpg",
     link: "https://www.melody-map.me/",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "melody-map",
