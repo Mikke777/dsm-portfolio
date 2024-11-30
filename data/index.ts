@@ -102,7 +102,7 @@ export const data = [
     content: [
       {
         title: "We are Little Lemon Restaurant",
-        description: "Project Little Lemon is a RESTful web app designed to simulate the experience of ordering food from a restaurant, allowing users to view the menu, learn about the restaurant, place online orders, and even book a table through its integrated API.",
+        description: "Project Little Lemon is a RESTful REACT web app designed to simulate the experience of ordering food from a restaurant, allowing users to view the menu, learn about the restaurant, place online orders, and even book a table through its integrated API.",
         imgSrc: "/lhome.png",
         imgAlt: "lemon Image 1",
         sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
