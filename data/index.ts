@@ -1,5 +1,36 @@
 export const data = [
   {
+    category: "Networking",
+    title: "Inspiration Gathered",
+    src: "/insphome.png",
+    link: "https://inspirationgathered-c5de604a6b73.herokuapp.com/",
+    sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+    contentId: "Inspiration gathered",
+    content: [
+      {
+        title: "Inspiration Gathered: Your Global Hub for Meaningful Workshops",
+        description: "Inspiration Gathered is the online platform connecting passionate individuals with global audiences seeking enriching experiences. Whether you're a seasoned expert or just starting your journey as a workshop facilitator, our platform provides the tools and resources to: showcase your expertise, create a captivating online profile highlighting your unique skills, passions, and workshop offerings. Build Your Global Community: Reach a diverse audience of learners worldwide, eager to connect with inspiring individuals like you. Easily Manage Your Workshops: Seamlessly schedule, promote, and manage your online and in-person workshops with our intuitive platform. Grow Your Impact: Monetize your knowledge and share your passion with the world, while building a sustainable and rewarding career.",
+        imgSrc: "/insphome.png",
+        imgAlt: "Inspiration Gathered Image 1",
+        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      },
+      {
+        title: "For Workshop Seekers",
+        description: "Discover Unique Experiences: Explore a vast array of workshops, from creative arts and wellness practices to professional development and personal growth. Connect with Inspiring Leaders: learn from experienced facilitators and build meaningful connections with like-minded individuals .Find Your Perfect Workshop: Filter by location to find the perfect workshop that aligns with your goals. Access On-Demand. Inspiration Gathered is more than just a platform; it's a community. Join us and unlock your full potential as a workshop facilitator or embark on a transformative learning journey.",
+        imgSrc: "/inspindex.png",
+        imgAlt: "Inspiration Gathered Image 2",
+        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      },
+      {
+        title: "My Bookings: Your Workshop Hub",
+        description: "Effortlessly Manage Your Schedule: Easily access and manage all your booked workshops in one central location. Direct Communication: Easily contact the workshop creator with any questions or concerns through the secure in-platform messaging system. This addition highlights the convenience and user-friendliness of the My Booked Workshop section, emphasizing the value of in-platform communication for seamless workshop experiences.",
+        imgSrc: "/inspbooked.png",
+        imgAlt: "Inspiration Gathered Image 3",
+        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      },
+    ],
+  },
+  {
     category: "Meet People",
     title: "Melody Map",
     src: "/homep.jpg",
