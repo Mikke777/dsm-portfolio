@@ -6,7 +6,7 @@ import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaGitSquare, FaGithub, FaFigm
 import { BsFiletypeScss, BsFiletypeSql } from "react-icons/bs";
 import { IoCopyOutline, IoLogoJavascript, IoDocument, IoLogoNodejs } from "react-icons/io5";
 import { SiStimulus, SiNextdotjs, SiSqlite, SiHotwire, SiTailwindcss, SiTypescript, SiHeroku, SiRubyonrails } from "react-icons/si";
-import { DiPostgresql, DiRuby } from "react-icons/di";
+import { DiPostgresql, DiRuby, DiJqueryLogo } from "react-icons/di";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import MagicButton from "./MagicButton";
 import { Cover } from "@/components/ui/Cover";
@@ -190,6 +190,10 @@ export const BentoGridItem = ({
               <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
                 <TbBrandFramerMotion className="text-6xl" />
                 <p className="text-sm text-center">Framer Motion</p>
+              </div>
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <DiJqueryLogo className="text-6xl" />
+                <p className="text-sm text-center">Jquery</p>
               </div>
             </div>
           </div>
