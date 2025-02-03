@@ -34,7 +34,7 @@ export const data = [
     category: "Meet People",
     title: "Melody Map",
     src: "/homep.jpg",
-    link: "https://www.melody-map.me/",
+    link: "https://melody-map-8d0eaabb43fa.herokuapp.com/",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "melody-map",
     content: [
