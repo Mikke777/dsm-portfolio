@@ -65,7 +65,7 @@ export const data = [
     category: "Marketplace",
     title: "rent-A-bike",
     src: "/rentp.png",
-    link: "https://bikepal-9cb051bdd3da.herokuapp.com/",
+    link: "https://github.com/Mikke777/rails-watch-list",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "rent-a-bike",
     content: [
@@ -96,7 +96,7 @@ export const data = [
     category: "Movies",
     title: "Rails Wachtlist",
     src: "/watch.png",
-    link: "https://moviebookmark-da3842badb65.herokuapp.com/",
+    link: "https://github.com/Mikke777/rails-watch-list",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "rails-wachtlist",
     content: [
