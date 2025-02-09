@@ -3,7 +3,7 @@ export const data = [
     category: "Networking",
     title: "Inspiration Gathered",
     src: "/insphome.png",
-    link: "https://inspirationgathered-c5de604a6b73.herokuapp.com/",
+    link: "https://inspiration-gathered-24e6542ae8fc.herokuapp.com/",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "Inspiration gathered",
     content: [
