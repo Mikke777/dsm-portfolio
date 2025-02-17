@@ -93,6 +93,23 @@ export const data = [
     ],
   },
   {
+    category: "Blog",
+    title: "Liguria Hiking",
+    src: "/liguriahiking.png",
+    link: "https://wordblob0.wordpress.com/",
+    sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+    contentId: "rent-a-bike",
+    content: [
+      {
+        title: "Get inspire! Read Liguria Hiking",
+        description: "Liguria Hiking is a WordPress blog dedicated to exploring the breathtaking trails of the Ligurian region in Italy. Whether you're a seasoned hiker or a casual walker, this blog provides detailed guides, scenic routes, and insider tips to help you discover the best hiking spots along the Ligurian coast and inland mountains. From the rugged cliffs of the Cinque Terre to the panoramic trails of Porto Venere, and from the lush forests of the Aveto Natural Park to hidden coastal paths, Liguria Hiking covers a diverse range of landscapes. Each post includes route descriptions, difficulty levels, travel tips, and stunning photography to inspire your next adventure. Built on WordPress, the blog is designed for an intuitive and engaging user experience.",
+        imgSrc: "/liguriahiking1.png",
+        imgAlt: "rent Image 1",
+        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      }
+    ],
+  },
+  {
     category: "Movies",
     title: "Rails Wachtlist",
     src: "/watch.png",
