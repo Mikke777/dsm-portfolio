@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
 import { GlobeDemo } from "@/components/ui/GlobeDemo";
-import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaGitSquare, FaGithub, FaFigma  } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaGitSquare, FaGithub, FaFigma, FaWordpress  } from "react-icons/fa";
 import { BsFiletypeScss, BsFiletypeSql } from "react-icons/bs";
 import { IoCopyOutline, IoLogoJavascript, IoDocument, IoLogoNodejs } from "react-icons/io5";
 import { SiStimulus, SiNextdotjs, SiSqlite, SiHotwire, SiTailwindcss, SiTypescript, SiHeroku, SiRubyonrails } from "react-icons/si";
@@ -142,6 +142,10 @@ export const BentoGridItem = ({
               <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
                 <FaBootstrap className="text-6xl" />
                 <p className="text-sm text-center">Bootstrap</p>
+              </div>
+              <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
+                <FaWordpress className="text-6xl" />
+                <p className="text-sm text-center">Wordpress</p>
               </div>
               <div className="flex flex-col justify-center text-center items-center transform hover:text-orange-100 hover:translate-y-1">
                 <SiNextdotjs className="text-6xl" />
