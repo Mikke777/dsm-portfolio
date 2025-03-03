@@ -62,10 +62,41 @@ export const data = [
     ],
   },
   {
+    category: "E-commerce",
+    title: "Cutting Corner",
+    src: "/homep.jpg",
+    link: "https://shopper-75da6563a846.herokuapp.com/",
+    sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+    contentId: "cutting-corner",
+    content: [
+      {
+        title: "Bookmarks your favorite events!",
+        description: "Welcome to Melody Map, a web application designed for event enthusiasts and those passionate about discovering music events happening nearby. This platform empowers users to manage events seamlessly with a CRUD system built on Ruby on Rails. Create, edit, view, and delete events, enriching them with photos (Cloudinary), geocoded addresses, and detailed descriptions. Bookmark your favorite events created by others to ensure you never miss out on exciting opportunities. Integrated with Cloudinary for secure and optimized image storage and geocoding for precise location management, Melody Map is perfect for organizing and discovering events, offering a streamlined and engaging experience for music lovers and event enthusiasts alike.",
+        imgSrc: "/bookmarks.png",
+        imgAlt: "melody Image 1",
+        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      },
+      {
+        title: "Follow your Trendsetters",
+        description: "This feature lets you follow your favorite trendsetters, just like on social media, and stay updated on the events they organize. On the dedicated Trendsetters page, you can browse through a list of creators and their profiles. By clicking on a profile, you'll access a detailed view of all the events they've organized, categorized by past and upcoming events. This feature makes it easy to stay connected with trendsetters you admire, ensuring you never miss an opportunity to attend their unique and engaging events.",
+        imgSrc: "/trendsetters.png",
+        imgAlt: "melody Image 2",
+        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      },
+      {
+        title: "Melody Blog",
+        description: "Melody Blog is an interactive feature designed to connect event enthusiasts. Chat with others who share your interest in specific events, organize your own, and forge new friendships along the way! Leveraging Action Cable, a Rails library for real-time WebSocket communication, this feature enables seamless and instant message broadcasting. Whether you're discussing event details, networking, or simply sharing your excitement, Melody Blog makes connecting with like-minded people effortless and engaging.",
+        imgSrc: "/melodyblog.png",
+        imgAlt: "melody Image 3",
+        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+      },
+    ],
+  },
+  {
     category: "Marketplace",
     title: "rent-A-bike",
     src: "/rentp.png",
-    link: "https://github.com/Mikke777/rails-watch-list",
+    link: "https://github.com/Mikke777/Rent-A-Bike",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "rent-a-bike",
     content: [
@@ -98,7 +129,7 @@ export const data = [
     src: "/liguriahiking.png",
     link: "https://wordblob0.wordpress.com/",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
-    contentId: "rent-a-bike",
+    contentId: "liguria-hiking",
     content: [
       {
         title: "Get inspire! Read Liguria Hiking",
