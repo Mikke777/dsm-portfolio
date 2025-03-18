@@ -9,7 +9,7 @@ export const data = [
     content: [
       {
         title: "Inspiration Gathered: Your Global Hub for Meaningful Workshops",
-        description: "Inspiration Gathered is the online platform connecting passionate individuals with global audiences seeking enriching experiences. Whether you're a seasoned expert or just starting your journey as a workshop facilitator, our platform provides the tools and resources to: showcase your expertise, create a captivating online profile highlighting your unique skills, passions, and workshop offerings. Build Your Global Community: Reach a diverse audience of learners worldwide, eager to connect with inspiring individuals like you. Easily Manage Your Workshops: Seamlessly schedule, promote, and manage your online and in-person workshops with our intuitive platform. Grow Your Impact: Monetize your knowledge and share your passion with the world, while building a sustainable and rewarding career.",
+        description: "For testing purposes log in with credential: testuser@mail.com, password. Inspiration Gathered is the online platform connecting passionate individuals with global audiences seeking enriching experiences. Whether you're a seasoned expert or just starting your journey as a workshop facilitator, our platform provides the tools and resources to: showcase your expertise, create a captivating online profile highlighting your unique skills, passions, and workshop offerings. Build Your Global Community: Reach a diverse audience of learners worldwide, eager to connect with inspiring individuals like you. Easily Manage Your Workshops: Seamlessly schedule, promote, and manage your online and in-person workshops with our intuitive platform. Grow Your Impact: Monetize your knowledge and share your passion with the world, while building a sustainable and rewarding career.",
         imgSrc: "/insphome.png",
         imgAlt: "Inspiration Gathered Image 1",
         sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
@@ -68,7 +68,7 @@ export const data = [
     content: [
       {
         title: "Bookmarks your favorite events!",
-        description: "Welcome to Melody Map, a web application designed for event enthusiasts and those passionate about discovering music events happening nearby. This platform empowers users to manage events seamlessly with a CRUD system built on Ruby on Rails. Create, edit, view, and delete events, enriching them with photos (Cloudinary), geocoded addresses, and detailed descriptions. Bookmark your favorite events created by others to ensure you never miss out on exciting opportunities. Integrated with Cloudinary for secure and optimized image storage and geocoding for precise location management, Melody Map is perfect for organizing and discovering events, offering a streamlined and engaging experience for music lovers and event enthusiasts alike.",
+        description: "For testing purposes log in with credential: testuser@mail.com, password. Welcome to Melody Map, a web application designed for event enthusiasts and those passionate about discovering music events happening nearby. This platform empowers users to manage events seamlessly with a CRUD system built on Ruby on Rails. Create, edit, view, and delete events, enriching them with photos (Cloudinary), geocoded addresses, and detailed descriptions. Bookmark your favorite events created by others to ensure you never miss out on exciting opportunities. Integrated with Cloudinary for secure and optimized image storage and geocoding for precise location management, Melody Map is perfect for organizing and discovering events, offering a streamlined and engaging experience for music lovers and event enthusiasts alike.",
         imgSrc: "/bookmarks.png",
         imgAlt: "melody Image 1",
         sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
@@ -99,7 +99,7 @@ export const data = [
     content: [
       {
         title: "Find your favorite Plant, TODAY!",
-        description: "Welcome to Cutting Corner, an e-commerce Mockup made with Ruby on Rails, Tailwind, Javascript, Stripe, PostgreSQL and Hosted on Heroku. Cutting Corner is a small business that specializes in selling high-quality cutting boards. We are located in Passau, Germany and have been in business since 2005. We sell in all the world!",
+        description: "For testing purposes log in with credential: admin@example.com, password (login button is placed in the footer). Welcome to Cutting Corner, an e-commerce Mockup made with Ruby on Rails, Tailwind, Javascript, Stripe, PostgreSQL and Hosted on Heroku. Cutting Corner is a small business that specializes in selling high-quality cutting boards. We are located in Passau, Germany and have been in business since 2005. We sell in all the world!",
         imgSrc: "/cuttinghome.png",
         imgAlt: "cutting-corner Image 1",
         sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
