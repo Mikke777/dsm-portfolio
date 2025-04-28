@@ -62,7 +62,7 @@ export const data = [
     category: "Meet People",
     title: "Melody Map",
     src: "/homep.jpg",
-    link: "https://melody-map-8d0eaabb43fa.herokuapp.com/",
+    link: "https://github.com/Mikke777/melody-map",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "melody-map",
     content: [
@@ -93,7 +93,7 @@ export const data = [
     category: "E-commerce",
     title: "Cutting Corner",
     src: "/cuttinghome.png",
-    link: "https://shopper-75da6563a846.herokuapp.com/",
+    link: "https://github.com/Mikke777/ecomm",
     sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
     contentId: "cutting-corner",
     content: [
